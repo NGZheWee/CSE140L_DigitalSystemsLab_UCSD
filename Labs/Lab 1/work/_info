@@ -1,0 +1,361 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0
+vaddsub
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1682798628
+!i10b 1
+!s100 EPGlGe9b;8D=8::3`[9nQ1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1dahGj@O:5;YR6M@GcfBi0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1
+Z5 w1682852362
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv
+!i122 163
+L0 4 21
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1682798628.000000
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vcounter_down
+R0
+R1
+!i10b 1
+!s100 VA4CLH0gQmB9WJ88;Yje71
+R2
+IHzmo^CRQ3eLVIY?OLXd0V0
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv
+!i122 164
+L0 3 19
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv|
+!i113 1
+R8
+R9
+vmux2
+R0
+R1
+!i10b 1
+!s100 I9?f8MS0OCD=1i9kP<FY:0
+R2
+IZF4lM0n^C[KHA`TaToe0R1
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv
+!i122 165
+L0 3 13
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv|
+!i113 1
+R8
+R9
+vmux3
+R0
+Z10 !s110 1682798629
+!i10b 1
+!s100 ZmcDQ[Je0S>dYW?BKg`L@1
+R2
+I8?=_hFIKS=TnE4FFK5A:>3
+R3
+S1
+R4
+R5
+8D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv
+FD:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv
+!i122 166
+L0 3 20
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv|
+!i113 1
+R8
+R9
+vmux5
+R0
+R10
+!i10b 1
+!s100 `g1hQ2lNQ;?QNCeF[d`jR1
+R2
+I`7XA=aA_elcXcY^dlUhi[0
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv
+!i122 167
+L0 2 16
+R6
+r1
+!s85 0
+31
+Z11 !s108 1682798629.000000
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv|
+!i113 1
+R8
+R9
+vregister
+R0
+R10
+!i10b 1
+!s100 bDzeooMJ;[PfIBWlI8W:J3
+R2
+IG?HEoW?g<iFWnY_n`SY;B1
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv
+!i122 168
+L0 1 15
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv|
+!i113 1
+R8
+R9
+vregister_hl
+R0
+R10
+!i10b 1
+!s100 ;I=`]1d2@5HL]WiB7I_Pz3
+R2
+I;EFehOI:5MZC8gZ@5hbKB0
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv
+!i122 169
+L0 1 26
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv|
+!i113 1
+R8
+R9
+vright_shift_register
+R0
+R10
+!i10b 1
+!s100 bja0P6T]JRmVUJijB7cHN3
+R2
+IGIk]3=_0A6I1Y1G2F[o;61
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv
+!i122 170
+L0 1 24
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv|
+!i113 1
+R8
+R9
+vrobertsonstest
+R0
+R10
+!i10b 1
+!s100 hGdaKYhNkfUzXgV^Go91D1
+R2
+I1Kc?VQi6T`hmOeQcO<Xif3
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv
+!i122 171
+L0 7 115
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv|
+!i113 1
+R8
+R9
+vrobs_control_unit_micro
+R0
+R10
+!i10b 1
+!s100 ?IIP1jF8Sgn>TbC^hjc<Z3
+R2
+IG[Z[_e6_NEfLQ^h^JF[LQ3
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv
+!i122 172
+L0 4 28
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv|
+!i113 1
+R8
+R9
+vrobs_datapath
+R0
+R10
+!i10b 1
+!s100 ]1YZN7XR[34bTRSd35l5Y0
+R2
+I7AUZ3YG@jX1fZ7NQQ]k@A1
+R3
+S1
+R4
+R5
+8D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv
+FD:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv
+!i122 173
+L0 3 48
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv|
+!i113 1
+R8
+R9
+vrobsmult
+R0
+R10
+!i10b 1
+!s100 0JlT^=iah5JYT`5_6>5DF3
+R2
+I9z`fMMV3dmEbElc`Z2[kh1
+R3
+S1
+R4
+R5
+8D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv
+FD:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv
+!i122 174
+L0 3 24
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv|
+!i113 1
+R8
+R9
+vrom
+R0
+R10
+!i10b 1
+!s100 b1nf[BznSTXmo4QEFfAM?2
+R2
+IWf5e[USGlmmTSPZ614:893
+R3
+S1
+R4
+R5
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv
+!i122 175
+L0 2 36
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv|
+!i113 1
+R8
+R9
+vupcreg
+R0
+R10
+!i10b 1
+!s100 3lK>iaa:ifcbZ8XDS`5jd0
+R2
+ILd6j`0?o<cKL?@Nfj:`IY0
+R3
+S1
+R4
+R5
+8D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv
+FD:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv
+!i122 176
+L0 4 19
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv|
+!i113 1
+R8
+R9

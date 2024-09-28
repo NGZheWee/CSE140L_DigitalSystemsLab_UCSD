@@ -1,0 +1,42 @@
+*design* DebussyLib (btIdent 3.3v9)
+Command arguments:
+    +define+verilog
+    -f C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part1\simulation\filelist.f
+        ../rtl/design.sv
+        ../rtl/light_package.sv
+        ../rtl/negedge_pulse.sv
+        ../rtl/posedge_pulse.sv
+        ../rtl/traffic_light_controller1.sv
+        ../testbench/lab3_part1_tb.sv
+    -sv
+
+*Error*  syntax error
+"..\rtl\light_package.sv", 3: package light_package;<-
+*Error*  syntax error
+"..\rtl\traffic_light_controller1.sv", 7: import<-
+*Error*  syntax error
+"../rtl/light_package.sv", 3: package light_package;<-
+
+*Error* syntax error
+"../rtl/light_package.sv", 5: 
+Premature end of source
+"../rtl/light_package.sv", 8: *Error*  syntax error
+"../rtl/traffic_light_controller1.sv", 7: import<-
+
+*Warning* view traffic_light_controller1 redefined
+"../rtl/traffic_light_controller1.sv", 10: 
+*Error*  syntax error
+"../testbench/lab3_part1_tb.sv", 5: import<-
+Highest level modules:
+lab3_part1_tb
+
+
+*Error* failed to find identifier endpackage
+"..\rtl\traffic_light_controller1.sv", 7: 
+
+*Error* failed to find identifier endpackage
+"../rtl/light_package.sv", 7: 
+
+*Error* view conflict_detect is not defined for inst conflict_detect
+"../rtl/traffic_light_controller1.sv", 64: 
+Total	10 error(s),   1 warning(s)

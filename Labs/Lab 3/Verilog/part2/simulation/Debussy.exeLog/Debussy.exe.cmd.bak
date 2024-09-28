@@ -1,0 +1,42 @@
+srcSourceCodeView
+srcResizeWindow 0 0 1493 469
+wvCreateWindow
+wvResizeWindow -win $_nWave2 50 214 960 332
+wvResizeWindow -win $_nWave2 50 214 960 332
+wvResizeWindow -win $_nWave2 0 461 1493 431
+debImport "-f" \
+          "C:\\Users\\xinyuan\\Desktop\\traffic_light\\traffic_light_part2\\simulation\\filelist.f" \
+          "-sv" -path \
+          {C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part2\simulation}
+wvCreateWindow
+wvResizeWindow -win $_nWave3 50 214 960 332
+wvResizeWindow -win $_nWave3 50 214 960 332
+wvResizeWindow -win $_nWave3 50 216 960 330
+wvResizeWindow -win $_nWave3 50 275 960 271
+wvResizeWindow -win $_nWave3 50 374 960 172
+wvResizeWindow -win $_nWave3 50 462 960 84
+wvResizeWindow -win $_nWave3 50 453 960 93
+wvResizeWindow -win $_nWave3 50 416 960 130
+wvResizeWindow -win $_nWave3 50 284 960 262
+wvResizeWindow -win $_nWave3 50 228 960 318
+wvResizeWindow -win $_nWave3 50 144 960 402
+wvResizeWindow -win $_nWave3 50 103 960 443
+wvResizeWindow -win $_nWave3 50 104 960 442
+wvResizeWindow -win $_nWave3 0 461 1493 431
+wvOpenFile -win $_nWave3 \
+           {C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part2\simulation\novas.fsdb}
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvResizeWindow -win $_nWave3 0 461 1493 431
+srcHBSelect "lab3_part2_tb" -win $_nTrace1
+srcSetScope -win $_nTrace1 "lab3_part2_tb" -delim "."
+srcHBSelect "lab3_part2_tb.dut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "lab3_part2_tb.dut" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 11 2 7 5 3}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 12 3 21 1 1} -backward
+srcAddSelectedToWave -win $_nTrace1
+wvSelectGroup -win $_nWave3 {G2}
+wvSetPosition -win $_nWave3 {("G2" 0)}
+srcDeselectAll -win $_nTrace1

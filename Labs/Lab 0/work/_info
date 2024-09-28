@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ngzhe
+vFullAdder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1682550743
+!i10b 1
+!s100 zYMf_higl6gjzUGEYfC^b1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ia@]ODU8UPL;[AlUXfg?ZE3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0
+Z4 w1680322267
+8D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 0\FullAdder.sv
+FD:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 0\FullAdder.sv
+!i122 12
+L0 2 22
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1682550743.000000
+!s107 D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 0\FullAdder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 0\FullAdder.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@full@adder
+vFullAdder_TB
+R0
+!s110 1682550173
+!i10b 1
+!s100 fXY=Df:GHYaQgSCbl=>:L0
+R1
+I;[ofT_jd^YD]XLJh@;4OZ1
+R2
+S1
+R3
+R4
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv
+!i122 11
+L0 2 31
+R5
+r1
+!s85 0
+31
+!s108 1682550173.000000
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv|
+!i113 1
+R6
+R7
+n@full@adder_@t@b

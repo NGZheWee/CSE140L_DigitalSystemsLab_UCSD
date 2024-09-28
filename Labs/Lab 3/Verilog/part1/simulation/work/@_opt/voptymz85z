@@ -1,0 +1,251 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\xinyuan\Desktop\traffic_light\traffic_light_part1\simulation
+T_opt
+VSg@0h:G=;NW1z4`Z84=f?1
+04 13 4 work lab3_part1_tb fast 0
+=1-000e9a01ee30-646f87db-1e3-ac0
+o-quiet +acc -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+vconflict_detect
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+InMH]YS8;PK<d53<zn5BPX3
+VQcBOdngDica^fMzY>zXXf1
+S1
+Z2 dC:\Users\xinyuan\Desktop\traffic_light\traffic_light_part1\simulation
+w1684855854
+8../rtl/conflict_detect.sv
+F../rtl/conflict_detect.sv
+L0 1
+Z3 OE;L;10.1a;51
+r1
+31
+Z4 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 WQ]d:49`8YiBBlYL]8BgT2
+!s105 conflict_detect_sv_unit
+!s90 ../rtl/conflict_detect.sv|
+!s108 1685030875.071000
+!s107 ../rtl/conflict_detect.sv|
+!i10b 1
+!s85 0
+Xdesign_sv_unit
+R1
+Z5 DXx4 work 13 light_package 0 22 67RWU]MC7D>gIV?<bF0bS2
+VlnY5C^[LcKA9UB;>N33U=2
+r1
+31
+IlnY5C^[LcKA9UB;>N33U=2
+S1
+R2
+w1684857694
+8../rtl/design.sv
+F../rtl/design.sv
+Z6 F../rtl/light_package.sv
+Z7 F../rtl/traffic_light_controller1.sv
+L2 7
+R3
+R4
+!s108 1684857696.896000
+!s107 ../rtl/traffic_light_controller1.sv|../rtl/light_package.sv|../rtl/design.sv|
+!s90 ../rtl/design.sv|
+!s100 P]BNaL8_?:;izk7SObG]42
+!s85 0
+!i10b 1
+!i103 1
+vfalling_edge_detector
+R1
+IWERoOF>_g2ia]8dJf`R`;1
+VFQ^S3QODh6O4kIAAC4:890
+S1
+R2
+w1621963595
+8../rtl/falling_edge_detector.sv
+F../rtl/falling_edge_detector.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 Aha7hB14`9A`3W=ho^OMF1
+!s105 falling_edge_detector_sv_unit
+!s108 1684846416.283000
+!s107 ../rtl/falling_edge_detector.sv|
+!s90 ../rtl/falling_edge_detector.sv|
+!i10b 1
+!s85 0
+vlab3_part1_tb
+R1
+R5
+DXx4 work 21 lab3_part1_tb_sv_unit 0 22 g9bKlN9Kc2^8d<UT_?fVE0
+VjhT>4<KXV>z01]l=BC?Bc3
+r1
+31
+I>`_o3^]j`fg08<k]Mo_3_3
+S1
+R2
+Z8 w1684846836
+Z9 8../testbench/lab3_part1_tb.sv
+Z10 F../testbench/lab3_part1_tb.sv
+L0 8
+R3
+Z11 !s108 1685030875.272000
+Z12 !s107 ../testbench/lab3_part1_tb.sv|
+Z13 !s90 ../testbench/lab3_part1_tb.sv|
+R4
+!s100 =:TmYDgV3L>zcHD]ijVaI1
+!s105 lab3_part1_tb_sv_unit
+!s85 0
+!i10b 1
+Xlab3_part1_tb_sv_unit
+R1
+R5
+Vg9bKlN9Kc2^8d<UT_?fVE0
+r1
+31
+Ig9bKlN9Kc2^8d<UT_?fVE0
+S1
+R2
+R8
+R9
+R10
+L0 5
+R3
+R11
+R12
+R13
+R4
+!s100 @bN=fdiiKi5gK8BSczVjT0
+!s85 0
+!i10b 1
+!i103 1
+Xlight_package
+R1
+I67RWU]MC7D>gIV?<bF0bS2
+V67RWU]MC7D>gIV?<bF0bS2
+S1
+R2
+w1684438582
+8../rtl/light_package.sv
+R6
+L0 3
+R3
+r1
+31
+R4
+!s100 YjTiF4n8OQCXQC5D@E<DO2
+!s90 ../rtl/light_package.sv|
+!s108 1685030875.018000
+!s107 ../rtl/light_package.sv|
+!i10b 1
+!s85 0
+vnegedge_pulse
+R1
+Ig3eINVbK2nV<Z>NC^l`W;1
+VV9aRRe:H7@zZime7jO_6P3
+S1
+R2
+w1683897029
+8../rtl/negedge_pulse.sv
+F../rtl/negedge_pulse.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 b9FbcY7JRZUZTS?A03>]W1
+!s105 negedge_pulse_sv_unit
+!s90 ../rtl/negedge_pulse.sv|
+!s108 1685030875.160000
+!s107 ../rtl/negedge_pulse.sv|
+!i10b 1
+!s85 0
+vposedge_detector
+R1
+IU[I`YGhPUiohozk?6]iAK1
+VUJRg`RDB4?i[;8NHaV:`e0
+S1
+R2
+w1621963612
+8../rtl/posedge_detector.sv
+F../rtl/posedge_detector.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 PnBJG2`7=e0DK@2FI7eNH1
+!s105 posedge_detector_sv_unit
+!s108 1684846416.331000
+!s107 ../rtl/posedge_detector.sv|
+!s90 ../rtl/posedge_detector.sv|
+!i10b 1
+!s85 0
+vposedge_pulse
+R1
+IiL7K9EC^iaG0]1_SOJ4ch0
+Vf]=LK_KoZl;5IFNgBd2]R2
+S1
+R2
+w1683898194
+8../rtl/posedge_pulse.sv
+F../rtl/posedge_pulse.sv
+L0 1
+R3
+r1
+31
+R4
+!s100 LS]z:;5R;ngG:4E6IB?D=0
+!s105 posedge_pulse_sv_unit
+!s90 ../rtl/posedge_pulse.sv|
+!s108 1685030875.116000
+!s107 ../rtl/posedge_pulse.sv|
+!i10b 1
+!s85 0
+vtraffic_light_controller1
+R1
+R5
+DXx4 work 33 traffic_light_controller1_sv_unit 0 22 KM^<@NQ6Yfl[Zac1n<`4H2
+Vj2`0INjcIzS5GR?h`@RcK3
+r1
+31
+IH0K2K<faSNQzNK9@40ATz1
+S1
+R2
+Z14 w1685030872
+Z15 8../rtl/traffic_light_controller1.sv
+R7
+L0 10
+R3
+Z16 !s108 1685030875.207000
+Z17 !s107 ../rtl/traffic_light_controller1.sv|
+Z18 !s90 ../rtl/traffic_light_controller1.sv|
+R4
+!s105 traffic_light_controller1_sv_unit
+!s100 Q=`3XP]4LM1NkcnPMYElQ0
+!s85 0
+!i10b 1
+Xtraffic_light_controller1_sv_unit
+R1
+R5
+VKM^<@NQ6Yfl[Zac1n<`4H2
+r1
+31
+IKM^<@NQ6Yfl[Zac1n<`4H2
+S1
+R2
+R14
+R15
+R7
+L0 7
+R3
+R16
+R17
+R18
+R4
+!s100 LI9FOB>`>dK68dIDB2<Zg1
+!s85 0
+!i10b 1
+!i103 1

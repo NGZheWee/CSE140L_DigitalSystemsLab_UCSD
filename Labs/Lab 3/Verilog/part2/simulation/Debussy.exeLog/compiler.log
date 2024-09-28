@@ -1,0 +1,26 @@
+*design* DebussyLib (btIdent 3.3v9)
+Command arguments:
+    +define+verilog
+    -f C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part2\simulation\filelist.f
+        ../rtl/conflict_detect.sv
+        ../rtl/falling_edge_detector.sv
+        ../rtl/light_package.sv
+        ../rtl/posedge_pulse.sv
+        ../rtl/traffic_light_controller.sv
+        ../testbench/lab3_part2_tb_file.sv
+    -sv
+
+*Error*  syntax error
+"../rtl/light_package.sv", 1: package light_package;<-
+Premature end of source
+"../rtl/light_package.sv", 6: *Error*  syntax error
+"../rtl/traffic_light_controller.sv", 6: import<-
+*Error*  syntax error
+"../testbench/lab3_part2_tb_file.sv", 6: import<-
+Highest level modules:
+lab3_part2_tb
+
+
+*Error* failed to find identifier endpackage
+"../rtl/light_package.sv", 5: 
+Total	5 error(s),   0 warning(s)

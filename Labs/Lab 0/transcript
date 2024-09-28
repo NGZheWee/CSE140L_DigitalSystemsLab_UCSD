@@ -1,0 +1,260 @@
+# Loading project lab0
+vsim work.FullAdder_TB
+# vsim work.FullAdder_TB 
+# Start time: 16:03:47 on Apr 26,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+# Break key hit
+vsim work.FullAdder_TB
+# End time: 16:06:27 on Apr 26,2023, Elapsed time: 0:02:40
+# Errors: 0, Warnings: 1
+# vsim work.FullAdder_TB 
+# Start time: 16:06:27 on Apr 26,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+add wave -position insertpoint sim:/FullAdder_TB/*
+# Can't move the Now cursor.
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+# Compile of FullAdder.sv was successful.
+vsim work.FullAdder_TB
+# End time: 16:14:42 on Apr 26,2023, Elapsed time: 0:08:15
+# Errors: 0, Warnings: 2
+# vsim work.FullAdder_TB 
+# Start time: 16:14:42 on Apr 26,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+# A bookmark named "bookmark1" has been added for window "Wave"
+# Bookmarks will be automatically saved and restored
+add wave -position insertpoint sim:/FullAdder_TB/#INITIAL#20/*
+add wave -position insertpoint sim:/FullAdder_TB/#anonblk#242242802#21#4#/*
+# ** UI-Msg: (vish-4014) No objects found matching '/FullAdder_TB/#anonblk#242242802#21#4#/*'.
+add wave -position insertpoint sim:/FullAdder_TB/FA1/*
+run -all
+# Bookmarks have been exported for window "Wave" to: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/bookmarks.do
+vsim work.FullAdder_TB
+# End time: 16:17:30 on Apr 26,2023, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 1
+# vsim work.FullAdder_TB 
+# Start time: 16:17:30 on Apr 26,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+# A bookmarks file was found in the current directory with 1 bookmark
+add wave -position insertpoint sim:/FullAdder_TB/*
+# Bookmark(s) were restored for window "Wave"
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+run -all
+vsim work.FullAdder_TB
+# No bookmark changes exist in window "Wave"
+# End time: 16:19:49 on Apr 26,2023, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 1
+# vsim work.FullAdder_TB 
+# Start time: 16:19:49 on Apr 26,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+# A bookmarks file was found in the current directory with 1 bookmark
+# Bookmark(s) were restored for window "Wave"
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+run -all
+run -all
+
+run-all
+# invalid command name "run-all"
+run -all
+vsim work.FullAdder_TB
+# No bookmark changes exist in window "Wave"
+# End time: 16:14:01 on Apr 27,2023, Elapsed time: 23:54:12
+# Errors: 0, Warnings: 1
+# vsim work.FullAdder_TB 
+# Start time: 16:14:01 on Apr 27,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+# A bookmarks file was found in the current directory with 1 bookmark
+# Bookmark(s) were restored for window "Wave"
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+add wave -position insertpoint sim:/FullAdder_TB/#INITIAL#20/*
+run -all
+add wave -position insertpoint sim:/FullAdder_TB/FA1/*
+run -all
+vsim work.FullAdder_TB
+# No bookmark changes exist in window "Wave"
+# End time: 16:15:36 on Apr 27,2023, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1
+# vsim work.FullAdder_TB 
+# Start time: 16:15:36 on Apr 27,2023
+# Loading sv_std.std
+# Loading work.FullAdder_TB
+# Loading work.FullAdder
+# A bookmarks file was found in the current directory with 1 bookmark
+# Bookmark(s) were restored for window "Wave"
+add wave -position insertpoint sim:/FullAdder_TB/*
+run -all
+# 0 0 0   00
+# 1 0 0   01
+# 0 1 0   01
+# 1 1 0   10
+# 0 0 1   01
+# 1 0 1   10
+# 0 1 1   10
+# 1 1 1   11
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv(27)
+#    Time: 8 ps  Iteration: 0  Instance: /FullAdder_TB
+# Break in Module FullAdder_TB at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv line 27
+run -all
+# No bookmark changes exist in window "Wave"
+quit -sim
+# End time: 12:01:02 on Apr 29,2023, Elapsed time: 43:45:26
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab1
+# Compile of addsub.sv was successful.
+# Compile of counter_down.sv failed with 1 errors.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv failed with 3 errors.
+# Compile of mux5.sv was successful.
+# Compile of register.sv was successful.
+# Compile of register_hl.sv was successful.
+# Compile of right_shift_register.sv was successful.
+# Compile of robertsonstest.sv was successful.
+# Compile of robs_control_unit_micro.sv was successful.
+# Compile of robs_data_path.sv failed with 4 errors.
+# Compile of robsmult.sv failed with 1 errors.
+# Compile of rom.sv was successful.
+# Compile of upc_reg.sv was successful.
+# 14 compiles, 4 failed with 9 errors.
+# Errors: 0, Warnings: 0
+# Compile of addsub.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of mux2.sv was successful.
+# Errors: 3, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of mux5.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of register.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of register_hl.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of right_shift_register.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of robertsonstest.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of robs_control_unit_micro.sv was successful.
+# Errors: 4, Warnings: 0
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of rom.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of upc_reg.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 3, Warnings: 0
+# Errors: 4, Warnings: 0
+# Errors: 1, Warnings: 0
+# Errors: 1, Warnings: 0
+# Compile of counter_down.sv failed.
+# Errors: 3, Warnings: 0
+# Compile of mux3.sv failed.
+# Errors: 4, Warnings: 0
+# Compile of robs_data_path.sv failed.
+# Errors: 1, Warnings: 0
+# Compile of robsmult.sv failed.
+# Load canceled
+# Load canceled
+# Errors: 0, Warnings: 0
+# Compile of addsub.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of mux2.sv was successful.
+# Errors: 3, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of mux5.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of register.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of register_hl.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of right_shift_register.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of robertsonstest.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of robs_control_unit_micro.sv was successful.
+# Errors: 4, Warnings: 0
+# Errors: 1, Warnings: 0
+# Errors: 0, Warnings: 0
+# Compile of rom.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of upc_reg.sv was successful.
+# Errors: 1, Warnings: 0
+# Errors: 3, Warnings: 0
+# Errors: 4, Warnings: 0
+# Errors: 1, Warnings: 0
+# Errors: 1, Warnings: 0
+# Compile of counter_down.sv failed.
+# Errors: 3, Warnings: 0
+# Compile of mux3.sv failed.
+# Errors: 4, Warnings: 0
+# Compile of robs_data_path.sv failed.
+# Errors: 1, Warnings: 0
+# Compile of robsmult.sv failed.
+# Load canceled

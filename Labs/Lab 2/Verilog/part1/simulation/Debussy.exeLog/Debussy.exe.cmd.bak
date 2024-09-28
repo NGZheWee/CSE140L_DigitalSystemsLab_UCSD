@@ -1,0 +1,120 @@
+srcSourceCodeView
+srcResizeWindow 1443 385 1057 674
+debImport "-f" "C:\\Users\\xinyuan\\Desktop\\alarm_part1\\simulation\\filelist.f" \
+          "-sv" -path {C:\Users\xinyuan\Desktop\alarm_part1\simulation}
+srcHBSelect "lab2_tb.sd" -win $_nTrace1
+srcSetScope -win $_nTrace1 "lab2_tb.sd" -delim "."
+srcHBSelect "lab2_tb.sd" -win $_nTrace1
+srcSetScope -win $_nTrace1 "lab2_tb.sd" -delim "."
+srcResizeWindow 3106 517 1297 776
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {12 16 1 1 16 35}
+wvCreateWindow
+wvResizeWindow -win $_nWave2 50 214 960 332
+wvResizeWindow -win $_nWave2 50 214 960 332
+wvOpenFile -win $_nWave2 \
+           {C:\Users\xinyuan\Desktop\alarm_part1\simulation\novas.fsdb}
+wvSetPosition -win $_nWave2 {("G1" 0)}
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {13 16 9 1 1 1}
+srcAddSelectedToWave -win $_nTrace1
+wvResizeWindow -win $_nWave2 3206 699 960 332
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "Hrs" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+wvZoom -win $_nWave2 42467.204191 116018.650626
+wvZoom -win $_nWave2 59079.478509 74608.343631
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "Min" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+wvSetRadix -win $_nWave2 -format UDec {("G1" 8)}
+wvSelectSignal -win $_nWave2 {( "G1" 7 )}
+wvSetRadix -win $_nWave2 -format UDec {("G1" 7)}
+wvResizeWindow -win $_nWave2 3206 699 963 332
+wvResizeWindow -win $_nWave2 3206 699 1024 352
+wvResizeWindow -win $_nWave2 3206 699 1096 378
+wvResizeWindow -win $_nWave2 3206 699 1220 410
+wvResizeWindow -win $_nWave2 3206 699 1263 430
+wvResizeWindow -win $_nWave2 3206 699 1276 438
+wvResizeWindow -win $_nWave2 3206 699 1294 453
+wvResizeWindow -win $_nWave2 3206 699 1304 461
+wvZoomAll -win $_nWave2
+wvZoom -win $_nWave2 0.000000 138283.769634
+wvZoom -win $_nWave2 52562.312437 61105.498205
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "Min" -win $_nTrace1
+srcAction -pos 20 8 2 -win $_nTrace1 -name "Min" -ctrlKey off
+srcShowCalling -win $_nTrace1
+srcSelect -win $_nTrace1 -range {153 153 19 20 1 1}
+srcBackwardHistory -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -win $_nTrace1 -range {19 19 8 17 1 2}
+srcAddSelectedToWave -win $_nTrace1
+wvSetRadix -win $_nWave2 -format UDec {("G1" 9)}
+wvSelectSignal -win $_nWave2 {( "G1" 10 )}
+wvSetRadix -win $_nWave2 -format UDec {("G1" 10)}
+wvSelectSignal -win $_nWave2 {( "G1" 11 )}
+wvSetRadix -win $_nWave2 -format UDec {("G1" 11)}
+wvZoomAll -win $_nWave2
+wvZoom -win $_nWave2 0.000000 74201.047120
+wvZoom -win $_nWave2 45919.182040 57340.704476
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoom -win $_nWave2 629941.811274 680459.623600
+wvZoom -win $_nWave2 655332.963019 663796.680267
+wvSetCursor -win $_nWave2 658514.611702 -snap {("G1" 10)}
+srcActiveTrace "lab2_tb.sd.TMin\[6:0\]" -win $_nTrace1
+srcSetOptions -win $_nTrace1 -annotate on
+schSetOptions -win $_nSchema1 -annotate on
+srcResizeWindow 3106 517 1494 867
+wvSetCursor -win $_nWave2 663654.879769 -snap {("G1" 11)}
+wvSetCursor -win $_nWave2 658434.848921 -snap {("G1" 9)}
+wvSetCursor -win $_nWave2 659524.940253 -snap {("G1" 11)}
+srcActiveTrace "lab2_tb.sd.THrs\[6:0\]" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "en" -win $_nTrace1
+wvSetCursor -win $_nWave2 658479.161577 -snap {("G1" 10)}
+wvSelectSignal -win $_nWave2 {( "G1" 7 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 8 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 9 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 10 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 9 10 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 6 7 8 9 11 )}
+wvSelectSignal -win $_nWave2 {( "G1" 5 6 7 8 9 11 )}
+wvSetCursor -win $_nWave2 656228.078665 -snap {("G1" 8)}
+wvSelectSignal -win $_nWave2 {( "G1" 8 )}
+wvSelectSignal -win $_nWave2 {( "G1" 10 )}
+wvSelectSignal -win $_nWave2 {( "G1" 11 )}
+wvSetCursor -win $_nWave2 659498.352659 -snap {("G1" 11)}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "ct_out" -win $_nTrace1
+srcAction -pos 6 10 1 -win $_nTrace1 -name "ct_out" -ctrlKey off
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "en" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "en" -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcShowCalling -win $_nTrace1
+srcSelect -win $_nTrace1 -range {10 10 15 16 1 1}
+srcShowCalling -win $_nTrace1
+srcSelect -win $_nTrace1 -range {60 60 13 14 1 1}
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "THen" -win $_nTrace1
+wvSetCursor -win $_nWave2 658798.212699 -snap {("G1" 5)}
+wvCloseWindow -win $_nWave2
+wvResizeWindow -win $_nWave2 3435 592 1304 461
+wvGetSignalClose -win $_nWave2
+debExit

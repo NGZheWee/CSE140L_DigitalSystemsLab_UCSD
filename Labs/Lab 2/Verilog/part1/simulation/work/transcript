@@ -1,0 +1,53 @@
+# Loading project lab2part1
+vsim work.display_tb_file_sv_unit
+# vsim work.display_tb_file_sv_unit 
+# Start time: 23:53:14 on May 12,2023
+# Loading sv_std.std
+# Loading work.display_tb_file_sv_unit
+# ** Fatal: (SIGFPE) Floating point exception.
+#    Time: 0 ps  Iteration: 0  Unknown: <UNKNOWN> File: UNKNOWN
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 23:53:15 on May 12,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Load canceled
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab2part2
+# Errors: 0, Warnings: 0
+# Compile of alarm.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of alarm_clock_controller.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ct_mod_N.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of lcd_int3.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of negedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of posedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of struct_diag.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of display_tb_file.sv was successful.
+# Compile of alarm.sv was successful.
+# Compile of alarm_clock_controller.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of negedge_pulse.sv was successful.
+# Compile of posedge_pulse.sv was successful.
+# Compile of struct_diag.sv was successful.
+# Compile of display_tb_file.sv was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+# Load canceled
+# Compile of alarm.sv was successful.
+# Compile of alarm_clock_controller.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of negedge_pulse.sv was successful.
+# Compile of posedge_pulse.sv was successful.
+# Compile of struct_diag.sv was successful.
+# Compile of display_tb_file.sv was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled

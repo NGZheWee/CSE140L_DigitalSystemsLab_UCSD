@@ -1,0 +1,28 @@
+# Loading project lab2part3
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab3part1
+# Load canceled
+# Errors: 0, Warnings: 0
+# Compile of conflict_detect.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of design.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of light_package.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of negedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of posedge_pulse.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of traffic_light_controller1.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of lab3_part1_tb.sv was successful.
+# Load canceled
+# Compile of conflict_detect.sv was successful.
+# Compile of design.sv was successful.
+# Compile of light_package.sv was successful.
+# Compile of negedge_pulse.sv was successful.
+# Compile of posedge_pulse.sv was successful.
+# Compile of traffic_light_controller1.sv was successful.
+# Compile of lab3_part1_tb.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled

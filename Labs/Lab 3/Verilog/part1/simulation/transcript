@@ -1,0 +1,55 @@
+# Loading project lab3part1
+vsim work.lab3_part1_tb
+# vsim work.lab3_part1_tb 
+# Start time: 23:45:36 on May 29,2023
+# Loading sv_std.std
+# Loading work.light_package
+# Loading work.lab3_part1_tb_sv_unit
+# Loading work.lab3_part1_tb
+# Loading work.traffic_light_controller1_sv_unit
+# Loading work.traffic_light_controller1
+# Loading work.negedge_pulse
+# Loading work.conflict_detect
+# Loading work.posedge_pulse
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_part1_tb File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 41
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_part1_tb File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 42
+vsim work.lab3_part1_tb
+# End time: 23:45:49 on May 29,2023, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 3
+# vsim work.lab3_part1_tb 
+# Start time: 23:45:49 on May 29,2023
+# Loading sv_std.std
+# Loading work.light_package
+# Loading work.lab3_part1_tb_sv_unit
+# Loading work.lab3_part1_tb
+# Loading work.traffic_light_controller1_sv_unit
+# Loading work.traffic_light_controller1
+# Loading work.negedge_pulse
+# Loading work.conflict_detect
+# Loading work.posedge_pulse
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_part1_tb File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 41
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_part1_tb File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 42
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpfile'
+#    Time: 0 ps  Iteration: 0  Process: /lab3_part1_tb/#INITIAL#40 File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 41
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpvars'
+#    Time: 0 ps  Iteration: 0  Process: /lab3_part1_tb/#INITIAL#40 File: D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv Line: 42
+# ** Note: $finish    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv(102)
+#    Time: 2500 ns  Iteration: 0  Instance: /lab3_part1_tb
+# 1
+# Break in Module lab3_part1_tb at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv line 102
+add wave -position insertpoint sim:/lab3_part1_tb/*
+add wave -position insertpoint sim:/lab3_part1_tb/dut/*
+run -all
+# ** Note: $stop    : D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv(37)
+#    Time: 20 us  Iteration: 0  Instance: /lab3_part1_tb
+# Break in Module lab3_part1_tb at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv line 37
+run -all
+# Break key hit
+# Break in Module lab3_part1_tb at D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 3/Verilog/part1/testbench/lab3_part1_tb.sv line 132
+# End time: 00:00:03 on May 30,2023, Elapsed time: 0:14:14
+# Errors: 2, Warnings: 4

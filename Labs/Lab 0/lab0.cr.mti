@@ -1,0 +1,69 @@
+{{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 15:47:01 on Apr 26,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder.sv 
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+End time: 15:47:01 on Apr 26,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder.sv} {1 {vlog -work work -sv -stats=none {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 0\FullAdder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 15:57:21 on Apr 26,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder.sv 
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+End time: 15:57:21 on Apr 26,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder_TB.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 15:47:01 on Apr 26,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder_TB.sv 
+-- Compiling module FullAdder_TB
+
+Top level modules:
+	FullAdder_TB
+End time: 15:47:01 on Apr 26,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder_TB.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/Lab 0 Lecture Notes/FullAdder_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder_TB
+
+Top level modules:
+	FullAdder_TB
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder_TB
+
+Top level modules:
+	FullAdder_TB
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 15:57:21 on Apr 26,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 0/FullAdder_TB.sv 
+-- Compiling module FullAdder_TB
+
+Top level modules:
+	FullAdder_TB
+End time: 15:57:21 on Apr 26,2023, Elapsed time: 0:00:00
+
+} {} {}}

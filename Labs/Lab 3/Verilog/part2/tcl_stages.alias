@@ -1,0 +1,22 @@
+alias	tcl_stages
+  GRRRR     0       NULL
+  YRRRR     1       NULL
+  ZRRRR     2       NULL
+  HRRRR     3       NULL
+  RGRRR     4       NULL
+  RYRRR     5       NULL
+  RZRRR     6       NULL
+  RHRRR     7       NULL
+  RRGRR     8       NULL
+  RRYRR     9       NULL
+  RRZRR     10      NULL
+  RRHRR     11      NULL
+  RRRGR     12      NULL
+  RRRYR     13      NULL
+  RRRZR     14      NULL
+  RRRHR     15      NULL
+  RRRRG     16      NULL
+  RRRRY     17      NULL
+  RRRRZ     18      NULL
+  RRRRH     19      NULL
+endalias

@@ -1,0 +1,21 @@
+preamble length =   7
+tap pattern           2 selected
+LFSR starting pattern = 000001
+original message string length =          50
+embedded leading underscore count =           0
+run encryption of this original message: 
+@@@@@@@@@@``````````@@@@@@@@@@``````````@@@@@@@@@@
+LFSR_ptrn = 30, LFSR_init = 01 01
+here is the original message with _ preamble padding
+_______@@@@@@@@@@``````````@@@@@@@@@@``````````@@@@@@@@@@_______
+here is the padded and encrypted pattern in ASCII
+^][WO~\FLXqbEJTiSGo~]ZTHqCgN\yrdIReKVM{WN}[VLySfMZujUkWo_`acgo^
+here is the padded pattern in hex
+ 5f 5f 5f 5f 5f 5f 5f 40 40 40 40 40 40 40 40 40 40 60 60 60 60 60 60 60 60 60 60 40 40 40 40 40 40 40 40 40 40 60 60 60 60 60 60 60 60 60 60 40 40 40 40 40 40 40 40 40 40 5f 5f 5f 5f 5f 5f 5f
+done at time                 1435
+match = 000100  foundit = 2
+dut decryption = 
+  40  40  40  40  40  40  40  40  40  40  60  60  60  60  60  60  60  60  60  60  40  40  40  40  40  40  40  40  40  40  60  60  60  60  60  60  60  60  60  60  40  40  40  40  40  40  40  40  40  40  5f  5f  5f  5f  5f  5f  5frun decryption:
+ct =           0
+40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   60 60   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   40 40   
+fault_count =           0

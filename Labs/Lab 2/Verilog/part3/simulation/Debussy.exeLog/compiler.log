@@ -1,0 +1,22 @@
+*design* DebussyLib (btIdent 3.3v9)
+Command arguments:
+    +define+verilog
+    -f C:\Users\xinyuan\Desktop\alarm_part3\simulation\filelist.f
+        ../rtl/alarm.sv
+        ../rtl/alarm_clock_controller.sv
+        ../rtl/ct_mod_N.sv
+        ../rtl/lcd_int3.sv
+        ../rtl/month_controller.sv
+        ../rtl/month_date_counter28.sv
+        ../rtl/month_date_counter30.sv
+        ../rtl/month_date_counter31.sv
+        ../rtl/negedge_pulse.sv
+        ../rtl/posedge_pulse.sv
+        ../rtl/struct_diag.sv
+        ../testbench/lab2_3_tb.sv
+    -sv
+
+Highest level modules:
+lab2_3_tb
+
+Total	0 error(s),   0 warning(s)

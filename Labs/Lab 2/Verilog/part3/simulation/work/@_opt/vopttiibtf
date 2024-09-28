@@ -1,0 +1,287 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\xinyuan\Desktop\alarm_part3\simulation
+T_opt
+V;I23YLB_JS1PLHZ595ldd3
+04 9 4 work lab2_3_tb fast 0
+=1-000e9a01ee30-645e7f7a-3b4-3d88
+o-quiet +acc -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.1a;51
+valarm
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!s100 _U8JIP<JiP40WBN^mfTIo0
+I<n3n4<=K8K1OP?G>l=B4J0
+VZKYWO9NK=ELS1AHULPA_>2
+!s105 alarm_sv_unit
+S1
+Z2 dC:\Users\xinyuan\Desktop\alarm_part3\simulation
+Z3 w1682781776
+8../rtl/alarm.sv
+F../rtl/alarm.sv
+L0 4
+Z4 OE;L;10.1a;51
+r1
+31
+Z5 !s108 1683914618.594000
+Z6 !s107 ../rtl/struct_diag.sv|../rtl/posedge_pulse.sv|../rtl/negedge_pulse.sv|../rtl/month_date_counter31.sv|../rtl/month_date_counter30.sv|../rtl/month_date_counter28.sv|../rtl/month_adv_logic.sv|../rtl/lcd_int3.sv|../rtl/ct_mod_N.sv|../rtl/alarm_clock_controller.sv|../rtl/alarm.sv|
+Z7 !s90 ../rtl/alarm.sv|../rtl/alarm_clock_controller.sv|../rtl/ct_mod_N.sv|../rtl/lcd_int3.sv|../rtl/month_adv_logic.sv|../rtl/month_date_counter28.sv|../rtl/month_date_counter30.sv|../rtl/month_date_counter31.sv|../rtl/negedge_pulse.sv|../rtl/posedge_pulse.sv|../rtl/struct_diag.sv|
+Z8 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+valarm_clock_controller
+R1
+!s100 b:lGCWHO4kPbjJWY3jWmD3
+I<<L4BJ?:S[YAzk5Bb8g[n1
+V_m46IF46TPdZlTef6_W8I1
+!s105 alarm_clock_controller_sv_unit
+S1
+R2
+w1683904614
+8../rtl/alarm_clock_controller.sv
+F../rtl/alarm_clock_controller.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vct_mod_N
+R1
+!s100 ``JifG:hc[0NXoi3MDX=O3
+IQa>U[N?_eD10KGJ_j:_d22
+VdCKaWa10MAEV:lGZWQ?AP3
+!s105 ct_mod_N_sv_unit
+S1
+R2
+R3
+8../rtl/ct_mod_N.sv
+F../rtl/ct_mod_N.sv
+L0 4
+R4
+r1
+31
+R5
+R6
+R7
+R8
+nct_mod_@n
+!i10b 1
+!s85 0
+vlab2_3_tb
+R1
+DXx4 work 17 lab2_3_tb_sv_unit 0 22 VO95aXGDRP?WR_QVYdMCA2
+Vi>MhHkok2ZbMUBe61c]oU0
+r1
+31
+!s100 <oOhkcPFjZ?aQdd@z6Y010
+I:BG70iRQXz^FTIb6BVndW1
+!s105 lab2_3_tb_sv_unit
+S1
+R2
+Z9 w1683913549
+Z10 8../testbench/lab2_3_tb.sv
+Z11 F../testbench/lab2_3_tb.sv
+L0 189
+R4
+Z12 !s108 1683914618.738000
+Z13 !s107 ../testbench/lab2_3_tb.sv|
+Z14 !s90 ../testbench/lab2_3_tb.sv|
+R8
+!s85 0
+!i10b 1
+Xlab2_3_tb_sv_unit
+R1
+VVO95aXGDRP?WR_QVYdMCA2
+r1
+31
+!s100 ?2[OFcDmZNjM<S0kjzQ2n1
+IVO95aXGDRP?WR_QVYdMCA2
+S1
+R2
+R9
+R10
+R11
+L0 6
+R4
+R12
+R13
+R14
+R8
+!s85 0
+!i10b 1
+!i103 1
+vlcd_int
+R1
+!s100 ]?`DfPJC>`gSRDmgFQga;3
+IP3J`gEGzgESReol4M[CQh1
+Vhh`UC1>Ck76fSaLc_XU8z2
+!s105 lcd_int3_sv_unit
+S1
+R2
+R3
+8../rtl/lcd_int3.sv
+F../rtl/lcd_int3.sv
+L0 3
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vmonth_adv_logic
+R1
+I7?UHLVE55TeVH4zecQXN53
+V`TRj=<`YmJdRUiBRb0HbP3
+!s105 month_adv_logic_sv_unit
+S1
+R2
+w1683914615
+8../rtl/month_adv_logic.sv
+F../rtl/month_adv_logic.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 BocQn`a:5j4jV0XSV6WVQ0
+!i10b 1
+!s85 0
+vmonth_date_counter28
+R1
+!s100 ha^;KPaDcCi6c9lC?3?`b3
+IZISg0JHM1ag>iXz_IShF@0
+V?:V[JK1EeASl:bK1OCTmS0
+!s105 month_date_counter28_sv_unit
+S1
+R2
+w1683912129
+8../rtl/month_date_counter28.sv
+F../rtl/month_date_counter28.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vmonth_date_counter30
+R1
+!s100 2P[;1_>ZI0gd1>zMT]d]P3
+IYQ@DP`o[KZBBX^SVob:UV2
+VY=Z?OTGA:DH0JzOUF?I=R3
+!s105 month_date_counter30_sv_unit
+S1
+R2
+w1683912186
+8../rtl/month_date_counter30.sv
+F../rtl/month_date_counter30.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vmonth_date_counter31
+R1
+!s100 8;k3R1F`NaXKhXX2f2BPm3
+IV3Ko>:iW1j5ch`5WO9]g:3
+VzCkdnMCTYBQ2_EL0f_Fjd0
+!s105 month_date_counter31_sv_unit
+S1
+R2
+w1683913267
+8../rtl/month_date_counter31.sv
+F../rtl/month_date_counter31.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vnegedge_pulse
+R1
+!s100 b9FbcY7JRZUZTS?A03>]W1
+Ig3eINVbK2nV<Z>NC^l`W;1
+VV9aRRe:H7@zZime7jO_6P3
+!s105 negedge_pulse_sv_unit
+S1
+R2
+w1683897029
+8../rtl/negedge_pulse.sv
+F../rtl/negedge_pulse.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vposedge_pulse
+R1
+!s100 LS]z:;5R;ngG:4E6IB?D=0
+IiL7K9EC^iaG0]1_SOJ4ch0
+Vf]=LK_KoZl;5IFNgBd2]R2
+!s105 posedge_pulse_sv_unit
+S1
+R2
+w1683898194
+8../rtl/posedge_pulse.sv
+F../rtl/posedge_pulse.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s85 0
+vstruct_diag
+R1
+ISNPNPzPOSa=88cXXKHCO20
+V;KRah8jzl3S?1R3;nf[gg1
+!s105 struct_diag_sv_unit
+S1
+R2
+w1683914602
+8../rtl/struct_diag.sv
+F../rtl/struct_diag.sv
+L0 4
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 ]gnzBQ13PV]<P<ez5;lE70
+!i10b 1
+!s85 0

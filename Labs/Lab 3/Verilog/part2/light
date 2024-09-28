@@ -1,0 +1,6 @@
+alias	light_package
+  red		0		NULL
+  yellow		1		NULL
+  green		2		NULL
+endalias
+

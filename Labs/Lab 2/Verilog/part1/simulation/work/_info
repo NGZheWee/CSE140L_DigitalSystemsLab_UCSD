@@ -1,0 +1,267 @@
+m255
+K3
+z0
+!s11f MIXED_VERSIONS
+13
+cModel Technology
+Z0 dC:\Users\xinyuan\Desktop\alarm_part1\simulation
+T_opt1
+V^C_Qi9=TihJX_OhLfANoN1
+04 7 4 work lab2_tb fast 0
+=1-000e9a01ee30-645e672d-1c3-2b80
+o-quiet +acc -auto_acc_if_foreign -work work
+n@_opt1
+OE;O;10.1a;51
+R0
+valarm
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1683960504
+!i10b 1
+!s100 RlIh?lOGamk=fYXPD8]R43
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJbDRhF<3nPJ_mR09bNbSH0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z5 dD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/simulation
+Z6 w1682835776
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm.sv
+!i122 44
+L0 4 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1683960504.000000
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+valarm_clock_controller
+R1
+R2
+!i10b 1
+!s100 P9nU=dh^6JEzS8L8U[9Xl3
+R3
+IiS6Z1]ASUP_Q9Ik<Jje8V3
+R4
+S1
+R5
+w1683954560
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm_clock_controller.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm_clock_controller.sv
+!i122 45
+L0 1 39
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm_clock_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/alarm_clock_controller.sv|
+!i113 1
+R9
+R10
+vct_mod_N
+R1
+R2
+!i10b 1
+!s100 8`WGVIWIcSjc<7<DjzlPG2
+R3
+IQo8dk7k_SeJW3SOZ>[cfc2
+R4
+S1
+R5
+R6
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/ct_mod_N.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/ct_mod_N.sv
+!i122 46
+L0 4 22
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/ct_mod_N.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/ct_mod_N.sv|
+!i113 1
+R9
+R10
+nct_mod_@n
+Xdisplay_tb_file_sv_unit
+R1
+Z11 !s110 1683960505
+V01oo@aT@GnB:]AoGU[kaa2
+r1
+!s85 0
+!i10b 1
+!s100 aPMfXSh2^FnbzToim=BkW0
+I01oo@aT@GnB:]AoGU[kaa2
+!i103 1
+S1
+R5
+w1683952096
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/simulation/display_tb_file.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/simulation/display_tb_file.sv
+!i122 51
+L0 3 0
+R7
+31
+!s108 1683960505.000000
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/simulation/display_tb_file.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/simulation/display_tb_file.sv|
+!i113 1
+R9
+R10
+vlab2_tb
+R1
+DXx4 work 20 lab2_tb_file_sv_unit 0 22 YhLG[FdZ?;mAn;Y9eVHWO1
+Z12 !s110 1683939247
+R4
+r1
+!s85 0
+!i10b 1
+!s100 J7H=Zz<W52=M0`iHiPDgb1
+I^V8]aicD[CUidHV@AcGKk3
+!s105 lab2_tb_file_sv_unit
+S1
+R5
+Z13 w1683962432
+Z14 8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/testbench/lab2_tb_file.sv
+Z15 FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/testbench/lab2_tb_file.sv
+!i122 43
+L0 139 55
+R7
+31
+Z16 !s108 1683939247.000000
+Z17 !s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/testbench/lab2_tb_file.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/testbench/lab2_tb_file.sv|
+!i113 1
+R9
+R10
+Xlab2_tb_file_sv_unit
+R1
+R12
+VYhLG[FdZ?;mAn;Y9eVHWO1
+r1
+!s85 0
+!i10b 1
+!s100 Rl;AXYm8Wj`V_A[_^:Z;f1
+IYhLG[FdZ?;mAn;Y9eVHWO1
+!i103 1
+S1
+R5
+R13
+R14
+R15
+!i122 43
+L0 5 0
+R7
+31
+R16
+R17
+R18
+!i113 1
+R9
+R10
+vlcd_int
+R1
+R2
+!i10b 1
+!s100 1om;YR?N=?Y:W`O_leGiF1
+R3
+IhzgMi4nfZ;>S4;j8_<IY]1
+R4
+S1
+R5
+w1683901014
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/lcd_int3.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/lcd_int3.sv
+!i122 47
+L0 1 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/lcd_int3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/lcd_int3.sv|
+!i113 1
+R9
+R10
+vnegedge_pulse
+R1
+R2
+!i10b 1
+!s100 3WRNGH3L@VU=hgZREPL[c0
+R3
+I9n6U9EU2?9n_>`PSN]KTo3
+R4
+S1
+R5
+w1683951030
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/negedge_pulse.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/negedge_pulse.sv
+!i122 48
+L0 1 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/negedge_pulse.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/negedge_pulse.sv|
+!i113 1
+R9
+R10
+vposedge_pulse
+R1
+R2
+!i10b 1
+!s100 34KeNSDh]PIMYf`7Zi`L<0
+R3
+ID;=[C`FLD0=;K`PF^ERgV1
+R4
+S1
+R5
+w1683952196
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/posedge_pulse.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/posedge_pulse.sv
+!i122 49
+L0 1 11
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/posedge_pulse.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/posedge_pulse.sv|
+!i113 1
+R9
+R10
+vstruct_diag
+R1
+R11
+!i10b 1
+!s100 llUjR3CVh6VQ>eIieO7_j2
+R3
+I:5zcAeo8gLh1KOgajeVHK1
+R4
+S1
+R5
+w1683962418
+8D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/struct_diag.sv
+FD:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/struct_diag.sv
+!i122 50
+L0 4 109
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/struct_diag.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part1/rtl/struct_diag.sv|
+!i113 1
+R9
+R10

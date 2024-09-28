@@ -1,0 +1,49 @@
+# Loading project lab2part2
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab2part3
+# Errors: 0, Warnings: 0
+# Compile of alarm.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of alarm_clock_controller.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ct_mod_N.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of lcd_int3.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of month_adv_logic.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of month_date_counter28.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of month_date_counter30.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of month_date_counter31.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of negedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of posedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of struct_diag.sv was successful.
+# Errors: 0, Warnings: 1
+# Compile of lab2_3_tb.sv was successful.
+# All compile dependencies have been resolved.Compile of alarm.sv was successful.
+# Compile of alarm_clock_controller.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of month_adv_logic.sv was successful.
+# Compile of month_date_counter28.sv was successful.
+# Compile of month_date_counter30.sv was successful.
+# Compile of month_date_counter31.sv was successful.
+# Compile of negedge_pulse.sv was successful.
+# Compile of posedge_pulse.sv was successful.
+# Compile of struct_diag.sv was successful.
+# Compile of lab2_3_tb.sv was successful.
+# 12 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+# Load canceled

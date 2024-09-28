@@ -1,0 +1,42 @@
+# Loading project lab1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project lab2part1
+# Errors: 0, Warnings: 0
+# Compile of alarm.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of alarm_clock_controller.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ct_mod_N.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of lcd_int3.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of negedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of posedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of struct_diag.sv was successful.
+# Compile of alarm.sv was successful.
+# Compile of alarm_clock_controller.sv was successful.
+# Compile of ct_mod_N.sv was successful.
+# Compile of lcd_int3.sv was successful.
+# Compile of negedge_pulse.sv was successful.
+# Compile of posedge_pulse.sv was successful.
+# Compile of struct_diag.sv was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Load canceled
+# Errors: 0, Warnings: 0
+# Compile of alarm.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of alarm_clock_controller.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of ct_mod_N.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of lcd_int3.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of negedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of posedge_pulse.sv was successful.
+# Errors: 0, Warnings: 0
+# Compile of struct_diag.sv was successful.
+# Load canceled

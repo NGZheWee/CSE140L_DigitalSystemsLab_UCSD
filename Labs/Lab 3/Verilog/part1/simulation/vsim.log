@@ -1,0 +1,72 @@
+# do {.\sim.do} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying C:\modeltech_10.1a\win32/../modelsim.ini
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling package light_package
+# 
+# Top level modules:
+# 	--none--
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module conflict_detect
+# 
+# Top level modules:
+# 	conflict_detect
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module posedge_pulse
+# 
+# Top level modules:
+# 	posedge_pulse
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module negedge_pulse
+# 
+# Top level modules:
+# 	negedge_pulse
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling package traffic_light_controller1_sv_unit
+# -- Importing package light_package
+# -- Compiling module traffic_light_controller1
+# 
+# Top level modules:
+# 	traffic_light_controller1
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling package lab3_part1_tb_sv_unit
+# -- Importing package light_package
+# -- Compiling module lab3_part1_tb
+# 
+# Top level modules:
+# 	lab3_part1_tb
+# vsim -t 1ns work.lab3_part1_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "traffic_light_controller1(fast)".
+# 
+# Loading C:\modeltech_10.1a\win32/novas.dll
+# Loading C:\Novas\Debussy\share\PLI\modelsim_pli54\WINNT\novas.dll
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.light_package(fast)
+# Loading work.lab3_part1_tb_sv_unit(fast)
+# Loading work.lab3_part1_tb(fast)
+# Loading work.traffic_light_controller1_sv_unit(fast)
+# Loading work.traffic_light_controller1(fast)
+# Loading work.negedge_pulse(fast)
+# Loading work.conflict_detect(fast)
+# Loading work.posedge_pulse(fast)
+# Novas FSDB Dumper for ModelSim54, Release 5.4v9 (Win95/NT) 05/04/2005
+# Copyright (C) 1996 - 2004 by Novas Software, Inc.
+# *Novas* Create FSDB file 'novas.fsdb'
+# *Novas* Start dumping the scope(lab3_part1_tb), layer(0).
+# *Novas* End of dumping.
+# ** Note: $finish    : ../testbench/lab3_part1_tb.sv(102)
+#    Time: 2500 ns  Iteration: 0  Instance: /lab3_part1_tb

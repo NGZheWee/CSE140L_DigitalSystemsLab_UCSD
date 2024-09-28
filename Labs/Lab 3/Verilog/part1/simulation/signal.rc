@@ -1,0 +1,68 @@
+Magic 271485
+Revision 5.4v9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 461 1493 431 187 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part1\simulation\novas.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 3
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 399.689882
+cursor 35.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name
+; visible top row signal index
+top 0
+; marker line index
+markerPos 8
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "C:\Users\xinyuan\Desktop\traffic_light\traffic_light_part1\simulation\novas.fsdb"
+addSignal -h 15 /lab3_part1_tb/dut/clk
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope ew_str_sensor
+addSignal -h 15 -holdScope ew_left_sensor
+addSignal -h 15 -holdScope ns_sensor
+addSignal -h 15 -UNSIGNED -HEX -holdScope ew_str_light[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ew_left_light[1:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope ns_light[1:0]
+addGroup "G2"
+
+; grid status
+; gridSignal signal_name
+; gridEdge 0 | 1
+; gridCount
+; gridCycleTime from to cycleTime
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

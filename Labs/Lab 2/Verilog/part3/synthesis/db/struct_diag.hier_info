@@ -1,0 +1,707 @@
+|struct_diag
+Reset => Reset.IN8
+Timeset => Timeset.IN1
+Alarmset => Alarmset.IN1
+Minadv => Minadv.IN1
+Hrsadv => Hrsadv.IN1
+Dayadv => comb.IN1
+Dateadv => date_adv.IN1
+Monthadv => Monthadv.IN1
+Alarmon => Buzz.OUTPUTSELECT
+Pulse => Pulse.IN16
+S1disp[0] <= lcd_int:Sdisp.Segment1
+S1disp[1] <= lcd_int:Sdisp.Segment1
+S1disp[2] <= lcd_int:Sdisp.Segment1
+S1disp[3] <= lcd_int:Sdisp.Segment1
+S1disp[4] <= lcd_int:Sdisp.Segment1
+S1disp[5] <= lcd_int:Sdisp.Segment1
+S1disp[6] <= lcd_int:Sdisp.Segment1
+S0disp[0] <= lcd_int:Sdisp.Segment0
+S0disp[1] <= lcd_int:Sdisp.Segment0
+S0disp[2] <= lcd_int:Sdisp.Segment0
+S0disp[3] <= lcd_int:Sdisp.Segment0
+S0disp[4] <= lcd_int:Sdisp.Segment0
+S0disp[5] <= lcd_int:Sdisp.Segment0
+S0disp[6] <= lcd_int:Sdisp.Segment0
+M1disp[0] <= lcd_int:Mdisp.Segment1
+M1disp[1] <= lcd_int:Mdisp.Segment1
+M1disp[2] <= lcd_int:Mdisp.Segment1
+M1disp[3] <= lcd_int:Mdisp.Segment1
+M1disp[4] <= lcd_int:Mdisp.Segment1
+M1disp[5] <= lcd_int:Mdisp.Segment1
+M1disp[6] <= lcd_int:Mdisp.Segment1
+M0disp[0] <= lcd_int:Mdisp.Segment0
+M0disp[1] <= lcd_int:Mdisp.Segment0
+M0disp[2] <= lcd_int:Mdisp.Segment0
+M0disp[3] <= lcd_int:Mdisp.Segment0
+M0disp[4] <= lcd_int:Mdisp.Segment0
+M0disp[5] <= lcd_int:Mdisp.Segment0
+M0disp[6] <= lcd_int:Mdisp.Segment0
+H1disp[0] <= lcd_int:Hdisp.Segment1
+H1disp[1] <= lcd_int:Hdisp.Segment1
+H1disp[2] <= lcd_int:Hdisp.Segment1
+H1disp[3] <= lcd_int:Hdisp.Segment1
+H1disp[4] <= lcd_int:Hdisp.Segment1
+H1disp[5] <= lcd_int:Hdisp.Segment1
+H1disp[6] <= lcd_int:Hdisp.Segment1
+H0disp[0] <= lcd_int:Hdisp.Segment0
+H0disp[1] <= lcd_int:Hdisp.Segment0
+H0disp[2] <= lcd_int:Hdisp.Segment0
+H0disp[3] <= lcd_int:Hdisp.Segment0
+H0disp[4] <= lcd_int:Hdisp.Segment0
+H0disp[5] <= lcd_int:Hdisp.Segment0
+H0disp[6] <= lcd_int:Hdisp.Segment0
+D0disp[0] <= lcd_int:Ddisp.Segment0
+D0disp[1] <= lcd_int:Ddisp.Segment0
+D0disp[2] <= lcd_int:Ddisp.Segment0
+D0disp[3] <= lcd_int:Ddisp.Segment0
+D0disp[4] <= lcd_int:Ddisp.Segment0
+D0disp[5] <= lcd_int:Ddisp.Segment0
+D0disp[6] <= lcd_int:Ddisp.Segment0
+Month1disp[0] <= lcd_int:Month_disp.Segment1
+Month1disp[1] <= lcd_int:Month_disp.Segment1
+Month1disp[2] <= lcd_int:Month_disp.Segment1
+Month1disp[3] <= lcd_int:Month_disp.Segment1
+Month1disp[4] <= lcd_int:Month_disp.Segment1
+Month1disp[5] <= lcd_int:Month_disp.Segment1
+Month1disp[6] <= lcd_int:Month_disp.Segment1
+Month0disp[0] <= lcd_int:Month_disp.Segment0
+Month0disp[1] <= lcd_int:Month_disp.Segment0
+Month0disp[2] <= lcd_int:Month_disp.Segment0
+Month0disp[3] <= lcd_int:Month_disp.Segment0
+Month0disp[4] <= lcd_int:Month_disp.Segment0
+Month0disp[5] <= lcd_int:Month_disp.Segment0
+Month0disp[6] <= lcd_int:Month_disp.Segment0
+Date1disp[0] <= lcd_int:Date_disp.Segment1
+Date1disp[1] <= lcd_int:Date_disp.Segment1
+Date1disp[2] <= lcd_int:Date_disp.Segment1
+Date1disp[3] <= lcd_int:Date_disp.Segment1
+Date1disp[4] <= lcd_int:Date_disp.Segment1
+Date1disp[5] <= lcd_int:Date_disp.Segment1
+Date1disp[6] <= lcd_int:Date_disp.Segment1
+Date0disp[0] <= lcd_int:Date_disp.Segment0
+Date0disp[1] <= lcd_int:Date_disp.Segment0
+Date0disp[2] <= lcd_int:Date_disp.Segment0
+Date0disp[3] <= lcd_int:Date_disp.Segment0
+Date0disp[4] <= lcd_int:Date_disp.Segment0
+Date0disp[5] <= lcd_int:Date_disp.Segment0
+Date0disp[6] <= lcd_int:Date_disp.Segment0
+Buzz <= Buzz.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|month_adv_logic:month_adv_logic
+clk => rst_counter31~reg0.CLK
+clk => rst_counter30~reg0.CLK
+clk => rst_counter28~reg0.CLK
+clk => Month[0]~reg0.CLK
+clk => Month[1]~reg0.CLK
+clk => Month[2]~reg0.CLK
+clk => Month[3]~reg0.CLK
+rst => Month.OUTPUTSELECT
+rst => Month.OUTPUTSELECT
+rst => Month.OUTPUTSELECT
+rst => Month.OUTPUTSELECT
+rst => rst_counter28.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => rst_counter28.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => rst_counter28.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => Month.OUTPUTSELECT
+Monthadv => rst_counter28.OUTPUTSELECT
+pospulse_28 => Month.OUTPUTSELECT
+pospulse_28 => Month.OUTPUTSELECT
+pospulse_28 => Month.OUTPUTSELECT
+pospulse_28 => Month.OUTPUTSELECT
+pospulse_28 => rst_counter28.DATAA
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => Month.OUTPUTSELECT
+pospulse_30 => rst_counter28.DATAA
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => Month.OUTPUTSELECT
+pospulse_31 => rst_counter28.DATAA
+Month[0] <= Month[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Month[1] <= Month[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Month[2] <= Month[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Month[3] <= Month[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst_counter28 <= rst_counter28~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst_counter30 <= rst_counter30~reg0.DB_MAX_OUTPUT_PORT_TYPE
+rst_counter31 <= rst_counter31~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|posedge_pulse:posedge_detector_u5
+clk => d0.CLK
+in_sig => out_sig.IN1
+in_sig => d0.DATAIN
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|posedge_pulse:posedge_detector_u6
+clk => d0.CLK
+in_sig => out_sig.IN1
+in_sig => d0.DATAIN
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|posedge_pulse:posedge_detector_u7
+clk => d0.CLK
+in_sig => out_sig.IN1
+in_sig => d0.DATAIN
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|posedge_pulse:posedge_pulse_H_tick
+clk => d0.CLK
+in_sig => out_sig.IN1
+in_sig => d0.DATAIN
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|negedge_pulse:negedge_pulse_M_tick
+clk => d0.CLK
+rst => d0.OUTPUTSELECT
+in_sig => d0.DATAA
+in_sig => out_sig.IN1
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|posedge_pulse:posedge_pulse_S_tick
+clk => d0.CLK
+in_sig => out_sig.IN1
+in_sig => d0.DATAIN
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|alarm_clock_controller:alarm_clock_controller
+Timeset => Equal0.IN2
+Timeset => Equal1.IN2
+Alarmset => Equal0.IN3
+Alarmset => Equal1.IN3
+Minadv => Time_minadv.DATAB
+Minadv => Alarm_minadv.DATAB
+Hrsadv => Time_hrsadv.DATAB
+Hrsadv => Alarm_hrsadv.DATAB
+S_tick => Time_minadv.DATAA
+M_tick => Time_hrsadv.DATAA
+Time_minadv <= Time_minadv.DB_MAX_OUTPUT_PORT_TYPE
+Time_hrsadv <= Time_hrsadv.DB_MAX_OUTPUT_PORT_TYPE
+Alarm_minadv <= Alarm_minadv.DB_MAX_OUTPUT_PORT_TYPE
+Alarm_hrsadv <= Alarm_hrsadv.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|month_date_counter28:month_date_conter28
+clk => clk.IN1
+rst => rst.IN1
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+zero <= negedge_pulse:negedge_pulse.out_sig
+
+
+|struct_diag|month_date_counter28:month_date_conter28|negedge_pulse:negedge_pulse
+clk => d0.CLK
+rst => d0.OUTPUTSELECT
+in_sig => d0.DATAA
+in_sig => out_sig.IN1
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|month_date_counter30:month_date_conter30
+clk => clk.IN1
+rst => rst.IN1
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+zero <= negedge_pulse:negedge_pulse.out_sig
+
+
+|struct_diag|month_date_counter30:month_date_conter30|negedge_pulse:negedge_pulse
+clk => d0.CLK
+rst => d0.OUTPUTSELECT
+in_sig => d0.DATAA
+in_sig => out_sig.IN1
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|month_date_counter31:month_date_conter31
+clk => clk.IN1
+rst => rst.IN1
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+en => count.OUTPUTSELECT
+count[0] <= count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+zero <= negedge_pulse:negedge_pulse.out_sig
+
+
+|struct_diag|month_date_counter31:month_date_conter31|negedge_pulse:negedge_pulse
+clk => d0.CLK
+rst => d0.OUTPUTSELECT
+in_sig => d0.DATAA
+in_sig => out_sig.IN1
+out_sig <= out_sig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:week_counter
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:Sct
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:Mct
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:Hct
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:Mreg
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|ct_mod_N:Hreg
+clk => ct_out[0]~reg0.CLK
+clk => ct_out[1]~reg0.CLK
+clk => ct_out[2]~reg0.CLK
+clk => ct_out[3]~reg0.CLK
+clk => ct_out[4]~reg0.CLK
+clk => ct_out[5]~reg0.CLK
+clk => ct_out[6]~reg0.CLK
+rst => next_ct[6].OUTPUTSELECT
+rst => next_ct[5].OUTPUTSELECT
+rst => next_ct[4].OUTPUTSELECT
+rst => next_ct[3].OUTPUTSELECT
+rst => next_ct[2].OUTPUTSELECT
+rst => next_ct[1].OUTPUTSELECT
+rst => next_ct[0].OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+en => next_ct.OUTPUTSELECT
+ct_out[0] <= ct_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[1] <= ct_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[2] <= ct_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[3] <= ct_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[4] <= ct_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[5] <= ct_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+ct_out[6] <= ct_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+z <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Month_disp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Date_disp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Ddisp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Sdisp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Mdisp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|lcd_int:Hdisp
+bin_in[0] => Mod0.IN10
+bin_in[0] => Div0.IN10
+bin_in[1] => Mod0.IN9
+bin_in[1] => Div0.IN9
+bin_in[2] => Mod0.IN8
+bin_in[2] => Div0.IN8
+bin_in[3] => Mod0.IN7
+bin_in[3] => Div0.IN7
+bin_in[4] => Mod0.IN6
+bin_in[4] => Div0.IN6
+bin_in[5] => Mod0.IN5
+bin_in[5] => Div0.IN5
+bin_in[6] => Mod0.IN4
+bin_in[6] => Div0.IN4
+Segment1[0] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[1] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[2] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[3] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[4] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[5] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+Segment1[6] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Segment0[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|struct_diag|alarm:a1
+tmin[0] => Equal0.IN6
+tmin[1] => Equal0.IN5
+tmin[2] => Equal0.IN4
+tmin[3] => Equal0.IN3
+tmin[4] => Equal0.IN2
+tmin[5] => Equal0.IN1
+tmin[6] => Equal0.IN0
+amin[0] => Equal0.IN13
+amin[1] => Equal0.IN12
+amin[2] => Equal0.IN11
+amin[3] => Equal0.IN10
+amin[4] => Equal0.IN9
+amin[5] => Equal0.IN8
+amin[6] => Equal0.IN7
+thrs[0] => Equal1.IN6
+thrs[1] => Equal1.IN5
+thrs[2] => Equal1.IN4
+thrs[3] => Equal1.IN3
+thrs[4] => Equal1.IN2
+thrs[5] => Equal1.IN1
+thrs[6] => Equal1.IN0
+ahrs[0] => Equal1.IN13
+ahrs[1] => Equal1.IN12
+ahrs[2] => Equal1.IN11
+ahrs[3] => Equal1.IN10
+ahrs[4] => Equal1.IN9
+ahrs[5] => Equal1.IN8
+ahrs[6] => Equal1.IN7
+buzz <= buzz.DB_MAX_OUTPUT_PORT_TYPE
+
+

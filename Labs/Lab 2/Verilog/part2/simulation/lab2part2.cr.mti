@@ -1,0 +1,138 @@
+{{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm.sv 
+-- Compiling module alarm
+
+Top level modules:
+	alarm
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/negedge_pulse.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/negedge_pulse.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module negedge_pulse
+
+Top level modules:
+	negedge_pulse
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/posedge_pulse.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/posedge_pulse.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/posedge_pulse.sv 
+-- Compiling module posedge_pulse
+
+Top level modules:
+	posedge_pulse
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/lcd_int3.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/lcd_int3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lcd_int
+
+Top level modules:
+	lcd_int
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/struct_diag.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/struct_diag.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module struct_diag
+
+Top level modules:
+	struct_diag
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/testbench/lab2_tb_file.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/testbench/lab2_tb_file.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package lab2_tb_file_sv_unit
+-- Compiling module lab2_tb
+
+Top level modules:
+	lab2_tb
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/ct_mod_N.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/ct_mod_N.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/ct_mod_N.sv 
+-- Compiling module ct_mod_N
+
+Top level modules:
+	ct_mod_N
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/ct_mod_N.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/ct_mod_N.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ct_mod_N
+
+Top level modules:
+	ct_mod_N
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alarm
+
+Top level modules:
+	alarm
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/posedge_pulse.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/posedge_pulse.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module posedge_pulse
+
+Top level modules:
+	posedge_pulse
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/negedge_pulse.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/negedge_pulse.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/negedge_pulse.sv 
+-- Compiling module negedge_pulse
+
+Top level modules:
+	negedge_pulse
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/lcd_int3.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/lcd_int3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/lcd_int3.sv 
+-- Compiling module lcd_int
+
+Top level modules:
+	lcd_int
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/testbench/display_tb_file.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/testbench/display_tb_file.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/testbench/display_tb_file.sv 
+-- Compiling package display_tb_file_sv_unit
+
+Top level modules:
+	--none--
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/struct_diag.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/struct_diag.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/struct_diag.sv 
+-- Compiling module struct_diag
+
+Top level modules:
+	struct_diag
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm_clock_controller.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm_clock_controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:03:53 on May 13,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm_clock_controller.sv 
+-- Compiling module alarm_clock_controller
+
+Top level modules:
+	alarm_clock_controller
+End time: 00:03:53 on May 13,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm_clock_controller.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 2/Verilog/part2/rtl/alarm_clock_controller.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alarm_clock_controller
+
+Top level modules:
+	alarm_clock_controller
+
+} {} {}}

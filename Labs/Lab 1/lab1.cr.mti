@@ -1,0 +1,239 @@
+{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/upc_reg.sv} {1 {vlog -work work -sv -stats=none {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux3.sv} {1 {vlog -work work -sv -stats=none {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/upc_reg.sv}} {1 {vlog -work work -sv {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\upc_reg.sv 
+-- Compiling module upcreg
+
+Top level modules:
+	upcreg
+End time: 13:03:43 on Apr 29,2023, Elapsed time: 0:00:01
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv 
+-- Compiling module register
+
+Top level modules:
+	register
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv 
+-- Compiling module rom
+
+Top level modules:
+	rom
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv 
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:41 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv 
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+End time: 13:03:41 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv 
+-- Compiling module right_shift_register
+
+Top level modules:
+	right_shift_register
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robsmult.sv} {1 {vlog -work work -sv -stats=none {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module robsmult
+
+Top level modules:
+	robsmult
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robsmult.sv}} {1 {vlog -work work -sv {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robsmult.sv 
+-- Compiling module robsmult
+
+Top level modules:
+	robsmult
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv 
+-- Compiling module register_hl
+
+Top level modules:
+	register_hl
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv 
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:41 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv 
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+End time: 13:03:41 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_data_path.sv}} {1 {vlog -work work -sv {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:42 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv 
+-- Compiling module robs_datapath
+
+Top level modules:
+	robs_datapath
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:41 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv 
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+End time: 13:03:41 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux3.sv}} {1 {vlog -work work -sv {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:41 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\mux3.sv 
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+End time: 13:03:41 on Apr 29,2023, Elapsed time: 0:00:00
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_control_unit_micro.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module robs_control_unit_micro
+
+Top level modules:
+	robs_control_unit_micro
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/rom.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} {{D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv}} {1 {vlog -work work -sv {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 13:03:41 on Apr 29,2023
+vlog -reportprogress 300 -work work -sv D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/mux5.sv 
+-- Compiling module mux5
+
+Top level modules:
+	mux5
+End time: 13:03:42 on Apr 29,2023, Elapsed time: 0:00:01
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/counter_down.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_down
+
+Top level modules:
+	counter_down
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/right_shift_register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module right_shift_register
+
+Top level modules:
+	right_shift_register
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/register_hl.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_hl
+
+Top level modules:
+	register_hl
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robertsonstest.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module robertsonstest
+
+Top level modules:
+	robertsonstest
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/robs_data_path.sv} {1 {vlog -work work -sv -stats=none {D:\OneDrive\UCSD\(9) 2023 Spring\CSE 140L\[Labs for CSE 140L] (20%x5)\Lab 1\robs_data_path.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module robs_datapath
+
+Top level modules:
+	robs_datapath
+
+} {} {}} {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive/UCSD/(9) 2023 Spring/CSE 140L/[Labs for CSE 140L] (20%x5)/Lab 1/addsub.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+
+} {} {}}

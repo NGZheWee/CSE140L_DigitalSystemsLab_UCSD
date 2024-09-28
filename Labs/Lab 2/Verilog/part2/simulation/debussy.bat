@@ -1,0 +1,1 @@
+start "" "C:\Novas\Debussy\bin\Debussy.exe"
