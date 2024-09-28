@@ -1,6 +1,6 @@
 # CSE140L: Digital Systems Laboratory (Spring 2023, UCSD)
 
-This repository contains coursework from **CSE140L: Digital Systems Laboratory**, which I took in Fall 2022 at UC San Diego. The course focuses on the design, simulation, and implementation of digital systems using hardware description languages (HDLs) like Verilog.
+This repository contains coursework from **CSE140L: Digital Systems Laboratory**, which I took in Spring 2023 at UC San Diego. The course focuses on the design, simulation, and implementation of digital systems using hardware description languages (HDLs) like Verilog.
 
 ## Contents:
 
